@@ -2,27 +2,29 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Ejercicio 1</title>
+<title>Ejercicio 1</title> <!-- el title es el nombre de la página y lo que se va a mostrar en la pestaña del navegador, tiene que ser descriptivo del sitio y entendible para el usuario -->
 </head>
 
+<!-- Buen arranque pero hay que ponerle mucha pila a los videos y apuntes porque hay varios errores conceptuales, principalmente el uso de divs que hay en el tp. Tratá de repensar la etiqueta, qué es lo que estás aplicando, una línea de texto? una agrupación de elementos iguales? un título? En general los divs solo sirven para agrupar cosas. Muy bien por el uso de acutes! También hay que ajustar el indentado en varios lugares, recordá que si una etiqueta está contenida por otra, va a tener un tab más. -->
+	
 <body>
 	<header>
-		<h1>Curriculum Vitae</h1>
-		<u><img src="img/foto1.png" width="200" height="200" alt="foto1"/>
-		<h3>Datos personales</h3></u>
-				<h6><div>Nombre: Eliana Estefan&iacute;a D’Aquilio</div>
-				<div>Nº de DNI: 32.891.281</div>
+		<h1>Curriculum Vitae</h1> <!-- El h1 es otra cosa que tiene que ser descriptiva de la página, es lo primero que encuentra un buscador, si buscamos en google "curriculum" van a aparecer miles de resultados, pero de "Eliana" seguramente hayan muchísimas menos -->
+		<u><img src="img/foto1.png" width="200" height="200" alt="foto1"/> <!-- hace falta poner la unidad de medida, también tené en cuenta que el alt es información descriptiva de la foto por si no se puede cargar, es información para el usuario, tal vez "foto1" es muy ambiguo, pero si ponemos "acá está mi bella foto de perfil" es mucho más descriptivo. -->
+		<h3>Datos personales</h3></u> <!-- no utilices <u> -->
+				<h6><div>Nombre: Eliana Estefan&iacute;a D’Aquilio</div> <!-- el <h6> sólo corresponde a un subtítulo, no puede ser contenedora de otras etiquetas -->
+				<div>Nº de DNI: 32.891.281</div> <!-- un div es una división, acá lo que hay es una línea de texto, lo correcto sería usar una <p>, aunque también es una lista de datos, por lo que podrías usar una <ol> o <ul> con <li> -->
 				<div>Fecha de nacimiento: 18/1/1987</div>
 				<div>Nacionalidad: Argentina</div>
 				<div>Domicilio: Coronel Warnes 2213, Lan&uacute;s, Bs. As.</div>
 				<div>C&oacute;digo postal: 1824</div>
 				<div>Tel&eacute;fono: 42625546 / 1553228327</div>
-				<div>E-mail: eliana.es1987@gmail.com</div></h6>
+				<div>E-mail: eliana.es1987@gmail.com</div></h6> <!-- revisá el apunte de etiqueta <a> para complementar -->
 	</header>
 	<nav></nav>
 	<main>
 		<section>
-			<article>
+			<article> <!-- en todo este article habría que empezar a pensar sub-secciones que nos sirvan para dividir diferentes tipos de información, por ejemplo, los estudios de la experiencia. También corregí todos los divs en base a las correcciones anteriores -->
 				<u><h3>Estudios Cursados</h3></u>
 				<h4><div>Universitarios</div></h4>
 				<h6><div>Licenciatura en Diseño y Comunicaci&oacute;n Visual (En curso)</div>
@@ -38,7 +40,7 @@
 				<u><h3>Experiencia Laboral</h3></u>
 				<h4><div>Septiembre 2021 hasta la actualidad</div></h4>
 				<h6><div>Diseñadora Freelance</div>
-				<div><li>Diseño de men&uacute;s </li></div>
+				<div><li>Diseño de men&uacute;s </li></div> <!-- los <li> siempre tienen que estar contenidos por <ol> o <ul> -->
 				<div><li>Banners</li></div>
 				<div><li>Contenido para redes sociales</li></div>
 				<div><li>Tarjetas personalizadas</li></div>
@@ -66,7 +68,7 @@
 						
 			</article>
 		</section>
-		<aside></aside>
+		<aside></aside> <!-- no dejes etiquetas sueltas, si necesitás dejar algún recordatorio dejalo como un comentario -->
 	</main>
 	<footer></footer>
 	
