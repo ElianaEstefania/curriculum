@@ -1,14 +1,35 @@
 <!doctype html>
 <html>
 <head>
+<<<<<<< HEAD
 	<meta charset="utf-8">
 	<title>Diseño Y Comunicación Visual</title>
 	<link href="estilos.css" rel="stylesheet" type="text/css">
+=======
+<meta charset="utf-8">
+<title>Ejercicio 1</title> <!-- el title es el nombre de la página y lo que se va a mostrar en la pestaña del navegador, tiene que ser descriptivo del sitio y entendible para el usuario -->
+>>>>>>> 1f43c679d7f2276639932624cb2b56b8db36f08b
 </head>
 
+<!-- Buen arranque pero hay que ponerle mucha pila a los videos y apuntes porque hay varios errores conceptuales, principalmente el uso de divs que hay en el tp. Tratá de repensar la etiqueta, qué es lo que estás aplicando, una línea de texto? una agrupación de elementos iguales? un título? En general los divs solo sirven para agrupar cosas. Muy bien por el uso de acutes! También hay que ajustar el indentado en varios lugares, recordá que si una etiqueta está contenida por otra, va a tener un tab más. -->
+	
 <body>
 	<header>
+<<<<<<< HEAD
 			<h1>D'Aquilio Eliana | Curriculum Vitae</h1>
+=======
+		<h1>Curriculum Vitae</h1> <!-- El h1 es otra cosa que tiene que ser descriptiva de la página, es lo primero que encuentra un buscador, si buscamos en google "curriculum" van a aparecer miles de resultados, pero de "Eliana" seguramente hayan muchísimas menos -->
+		<u><img src="img/foto1.png" width="200" height="200" alt="foto1"/> <!-- hace falta poner la unidad de medida, también tené en cuenta que el alt es información descriptiva de la foto por si no se puede cargar, es información para el usuario, tal vez "foto1" es muy ambiguo, pero si ponemos "acá está mi bella foto de perfil" es mucho más descriptivo. -->
+		<h3>Datos personales</h3></u> <!-- no utilices <u> -->
+				<h6><div>Nombre: Eliana Estefan&iacute;a D’Aquilio</div> <!-- el <h6> sólo corresponde a un subtítulo, no puede ser contenedora de otras etiquetas -->
+				<div>Nº de DNI: 32.891.281</div> <!-- un div es una división, acá lo que hay es una línea de texto, lo correcto sería usar una <p>, aunque también es una lista de datos, por lo que podrías usar una <ol> o <ul> con <li> -->
+				<div>Fecha de nacimiento: 18/1/1987</div>
+				<div>Nacionalidad: Argentina</div>
+				<div>Domicilio: Coronel Warnes 2213, Lan&uacute;s, Bs. As.</div>
+				<div>C&oacute;digo postal: 1824</div>
+				<div>Tel&eacute;fono: 42625546 / 1553228327</div>
+				<div>E-mail: eliana.es1987@gmail.com</div></h6> <!-- revisá el apunte de etiqueta <a> para complementar -->
+>>>>>>> 1f43c679d7f2276639932624cb2b56b8db36f08b
 	</header>
 	<nav>
 		
@@ -33,6 +54,7 @@
 	</nav>
 	<main>
 		<section>
+<<<<<<< HEAD
 			<article>
 				<div>
 					<h2>Experiencia Laboral</h2>
@@ -45,6 +67,50 @@
 						<p>Referencias: Lourdes Galeano (15-4168-2827)</p>
 					</ul> 
 				</div>
+=======
+			<article> <!-- en todo este article habría que empezar a pensar sub-secciones que nos sirvan para dividir diferentes tipos de información, por ejemplo, los estudios de la experiencia. También corregí todos los divs en base a las correcciones anteriores -->
+				<u><h3>Estudios Cursados</h3></u>
+				<h4><div>Universitarios</div></h4>
+				<h6><div>Licenciatura en Diseño y Comunicaci&oacute;n Visual (En curso)</div>
+				<div>Instituci&oacute;n: UNLa (Universidad Nacional de Lan&uacute;s)</div>
+				<div>29 de Septiembre 3901, Remedios de Escalada, Bs. As</div></h6>
+				<h4><div>Secundarios</div></h4>
+				<h6><div>Colegio: Instituto Sagrado Corazón de Jes&uacute;s</div>
+				<div>Bachiller: econom&iacute;a y gestión de las organizaciones</div>
+				<div>Humahuaca 2456, Lan&uacute;s Oeste</div></h6>
+				<u><h3>Idiomas</h3></u>
+				<h6><div>Ingl&eacute;s: Escrito y hablado</div>
+				<div>Portugu&eacute;s: Escrito y hablado</div></h6>
+				<u><h3>Experiencia Laboral</h3></u>
+				<h4><div>Septiembre 2021 hasta la actualidad</div></h4>
+				<h6><div>Diseñadora Freelance</div>
+				<div><li>Diseño de men&uacute;s </li></div> <!-- los <li> siempre tienen que estar contenidos por <ol> o <ul> -->
+				<div><li>Banners</li></div>
+				<div><li>Contenido para redes sociales</li></div>
+				<div><li>Tarjetas personalizadas</li></div>
+				<div><li>Diseño de vinilo de corte</li></div>
+				<div><li>Diseño de vinilo impreso</li></div>
+				<div>Referencias: Lourdes Galeano (15-4168-2827)</div></h6>
+				<h4><div>Marzo 2019 – Julio 2020</div></h4>
+				<h6><div>Lucas RHR Gráfica</div>
+				<div>Puesto: Diseñadora gráfica</div>
+				<div>Tareas realizadas:</div> 
+				<div><li>Diseño de vinilo de corte</li></div>
+				<div><li>Diseño de vinilo impreso</li></div>
+				<div><li>Ploteo de vidrieras</li></div>
+				<div><li>Diseño de folletería</li></div>
+				<div><li>Tarjetas</li></div>
+				<div>Referencias: Lucas Ibasca (15-6579-5903)</div></h6>
+				<h4><div>Abril 2014 - Febrero 2018</div></h4>
+				<h6><div>Despensa Rosa</div>
+				<div>Puesto: Empleada</div>
+				<div>Tareas Realizadas: </div>
+				<div><li>Atenci&oacute;n al cliente</li></div>
+				<div><li>Reposici&oacute;n de mercader&iacute;a</li></div>
+				<div><li>Compra de insumos</li></div>
+				<div>Referencias: Claudia Alvares (15-5346-8001)</div></h6>
+						
+>>>>>>> 1f43c679d7f2276639932624cb2b56b8db36f08b
 			</article>
 			<article>
 					<h3>Marzo 2019 – Julio 2020</h3>
@@ -89,6 +155,7 @@
 				</article>
 
 		</section>
+<<<<<<< HEAD
 		<aside> 
 		    
 			<div class="caja1">
@@ -103,6 +170,9 @@
 			</ul>
 		   </div>
 				</aside>
+=======
+		<aside></aside> <!-- no dejes etiquetas sueltas, si necesitás dejar algún recordatorio dejalo como un comentario -->
+>>>>>>> 1f43c679d7f2276639932624cb2b56b8db36f08b
 	</main>
 	<footer>
 		
