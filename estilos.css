@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background-color: antiquewhite;
+	
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+	
+header {
+		width: 1080px;
+		height: 50px;
+		margin-top: 50px;
+		margin-left: 10px;}
+
+
+nav {
+	margin-top: 30px;
+	margin-left: 20px;
+	width: 700px;
+	heigh: 1080px;
+	display: flex;
+	justify-content: center;
+	align-content: space-between;
+	}
+	
+article
+.caja {
+		widht: 200px;
+		height: 200px;
+		padding: 10px 10px;
+		margin: 10px 10px;
+		border-width: 2px;
+		border-style:dotted;
+		border-color:rgba(209,157,5,1.00);
+		}
+main {
+	width: 1080px;
+	height: 800px;
+	display: flex;
+	
+}
+section {
+		width: 880px;
+		margin-top: 50px;
+		margin-left: 20px;
+
+}
+article {
+	margin-top: 10px;
+}
+#contacto {
+		margin-bottom: 100px;
+		margin-left: 100px;
+		margin-right: 100px;
+		margin-top: 100px;
+		
+}
+aside {
+
+	width: 350px;
+	height: 200;
+	
+	
+}
+
+aside ul
+{ 	font-family: "alegreya", "sans-serif";
+	font-size: 13px;
+	color: rgba(66,66,66,1.00)}
+@font-face {
+		font-family: "alegreya", "sans-serif";
+		src: url("fonts/AlegreyaSans-Light.ttf");
+		font-weight: normal;
+		font-style: normal;  }
+
+.caja1 {
+		margin: 10px 10px;
+		padding: 10px 10px;
+		border-width: 2px;
+		border-style: double;
+		border-color: rgba(209,157,5,1.00);
+		border-style: dotted;
+	
+}
+footer {
+	widht: 1080px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 20 px;
+		}
+
+.vinculos {
+	margin-top: 10px;
+	widht: 200px;
+	height: 50px;
+	display: flex;
+	align-content: center;
+	
+}
+h1 {
+	font-family: 'Fira Sans', 'Alegreya Sans Medium', 'Merriweather Sans', "sans-serif";
+	font-size: 25px;
+	color: rgba(0,69,27,1.00)}
+@font-face {
+	font-family: "alegreya", "sans-serif";
+	src: url("fonts/AlegreyaSans-Regular.ttf")format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	}
+h2 {
+	font-family: "alegreya", "sans-serif";
+	font-size: 20px;
+	color: rgba(0,69,27,1.00)}
+@font-face {
+	font-family: "alegreya", "sans-serif";
+	src: url("fonts/AlegreyaSans-Medium.ttf");
+	font-weight: medium;
+	font-style: normal;
+}
+h3 	{
+	font-family: "alegreya", "sans-serif";
+	font-size: 15px;
+	color: rgba(0,0,0,1.00)}
+@font-face {
+	font-family: "alegreya", "sans-serif";
+	src: url("fonts/AlegreyaSans-Medium.ttf");
+	font-weight: medium;
+	font-style: normal;
+}
+h6 { 
+color: rgba(0,69,27,1.00)}
+
+p  { list-style: none;
+	font-family: "alegreya", "sans-serif";
+	font-size: 15px;
+	color: rgba(66,66,66,1.00)}
+@font-face {
+	font-family: "alegreya", "sans-serif";
+	src: url("fonts/AlegreyaSans-Light.ttf");
+	font-weight: normal;
+	font-style: normal;  }
+ul
+ { list-style: none;
+	font-family: "alegreya", "sans-serif";
+	font-size: 15px;
+	color: rgba(66,66,66,1.00)}
+@font-face {
+	font-family: "alegreya", "sans-serif";
+	src: url("fonts/AlegreyaSans-Light.ttf");
+	font-weight: normal;
+	font-style: normal;  }
